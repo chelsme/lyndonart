@@ -175,15 +175,21 @@ footer {
 
   .galleryimg {
     border: unset;
-    max-height: 90vw;
+    height: 90vh;
+    margin: 10px auto;
+    max-height: 90vh;
+    max-width: 90vw;
     object-fit: contain;
     width: 90vw;
   }
 
   .galleryimg:hover {
+    border: unset;
+    height: 90vh;
     max-height: 90vh;
     max-width: 90vw;
     transform: scale(1);
+    width: 90vw;
   }
 }
 
