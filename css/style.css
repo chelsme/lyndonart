@@ -174,9 +174,16 @@ footer {
   }
 
   .galleryimg {
-    margin: 10px auto;
-    max-width: 700px;
-    width: 100%;
+    border: unset;
+    max-height: 90vw;
+    object-fit: contain;
+    width: 90vw;
+  }
+
+  .galleryimg:hover {
+    max-height: 90vh;
+    max-width: 90vw;
+    transform: scale(1);
   }
 }
 
