@@ -175,7 +175,7 @@ footer {
 
   .galleryimg {
     border: unset;
-    height: 90vh;
+    height: auto;
     margin: 10px auto;
     max-height: 90vh;
     max-width: 90vw;
@@ -185,7 +185,7 @@ footer {
 
   .galleryimg:hover {
     border: unset;
-    height: 90vh;
+    height: auto;
     max-height: 90vh;
     max-width: 90vw;
     transform: scale(1);
