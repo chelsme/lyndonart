@@ -10,30 +10,37 @@
     href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.3/css/bootstrap.css'>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Rock+Salt" rel="stylesheet">
-
+  <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+  <script src="./index.js"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top sticky">
     <h1>Lyndon Art</h1>
     <div id="navlinks"><a class="weblink" href="#about">
-        <img class="weblinkimg" src="images/dadhat.png" onmouseover="this.src='images/about.png';"
-          onmouseout="this.src='images/dadhat.png';"></a>
+        <img class="weblinkimg" src="icons/dadhat.png" onmouseover="this.src='icons/about.png';"
+          onmouseout="this.src='icons/dadhat.png';"></a>
       <a class="weblink" href="#paint">
-        <img class="weblinkimg" src="images/paint-palette.png" onmouseover="this.src='images/painting.png';"
-          onmouseout="this.src='images/paint-palette.png';"></a>
+        <img class="weblinkimg" src="icons/paint-palette.png" onmouseover="this.src='icons/painting.png';"
+          onmouseout="this.src='icons/paint-palette.png';"></a>
       <a class="weblink" href="#design">
-        <img class="weblinkimg" src="images/design.png" onmouseover="this.src='images/graphic-design.png';"
-          onmouseout="this.src='images/design.png';"></a>
+        <img class="weblinkimg" src="icons/design.png" onmouseover="this.src='icons/graphic-design.png';"
+          onmouseout="this.src='icons/design.png';"></a>
+      <a class="weblink" href="#drawing">
+        <img class="weblinkimg" src="icons/drawing.png" onmouseover="this.src='icons/drawing-text.png';"
+          onmouseout="this.src='icons/drawing.png';"></a>
+      <a class="weblink" href="#illustration">
+        <img class="weblinkimg" src="icons/illustration.png" onmouseover="this.src='icons/illustration-text.png';"
+          onmouseout="this.src='icons/illustration.png';"></a>
       <a class="weblink" href="#sculpture">
-        <img class="weblinkimg" src="images/bust.png" onmouseover="this.src='images/sculpture.png';"
-          onmouseout="this.src='images/bust.png';"></a>
+        <img class="weblinkimg" src="icons/bust.png" onmouseover="this.src='icons/sculpture.png';"
+          onmouseout="this.src='icons/bust.png';"></a>
       <a class="weblink" href="#atw">
-        <img class="weblinkimg" src="images/web.png" onmouseover="this.src='images/atw.png';"
-          onmouseout="this.src='images/web.png';"></a>
+        <img class="weblinkimg" src="icons/web.png" onmouseover="this.src='icons/atw.png';"
+          onmouseout="this.src='icons/web.png';"></a>
       <a class="weblink" href="#contact">
-        <img class="weblinkimg" src="images/secured-letter.png" onmouseover="this.src='images/contact.png';"
-          onmouseout="this.src='images/secured-letter.png';"></a>
+        <img class="weblinkimg" src="icons/secured-letter.png" onmouseover="this.src='icons/contact.png';"
+          onmouseout="this.src='icons/secured-letter.png';"></a>
     </div>
   </nav>
 
@@ -44,57 +51,50 @@
   </div>
 
   <h2 id="paint">Paintings</h2>
-  <div class="galleries">
-    <img class="galleryimg" src="images/mermaid-large.jpg" alt="">
-    <img class="galleryimg" src="images/narcissist-large.jpg" alt="">
-    <img class="galleryimg" src="images/selfportrait-large.jpg" alt="">
-    <img class="galleryimg" src="images/sheilaportrait-large.jpg" alt="">
-    <img class="galleryimg" src="images/uninvited-large.jpg" alt="">
-    <img class="galleryimg" src="images/red-circles.jpg" alt="">
-  </div>
+  <div id="painting" class="galleries"></div>
   <h2 id="design">Graphic Design</h2>
-  <div class="galleries">
-    <img class="galleryimg" src="images/tabletwireframe-large.jpg" alt="">
-    <img class="galleryimg" src="images/storminnormans-large.jpg" alt="">
-    <img class="galleryimg" src="images/hrolympiciconsfin-large.jpg" alt="">
-    <img class="galleryimg" src="images/nodeathbymosquito-large.jpg" alt="">
-    <img class="galleryimg" src="images/hotguitar-large.jpg" alt="">
-    <img class="galleryimg" src="images/epv-peeps-large.jpg" alt="">
-    <img class="galleryimg" src="images/drivers-large.jpg" alt="">
-    <img class="galleryimg" src="images/clubcameron-large.jpg" alt="">
-    <img class="galleryimg" src="images/valentine-large.jpg" alt="">
-  </div>
+  <div id="cgi" class="galleries"></div>
+  <h2 id="drawing">Drawing</h2>
+  <div id="drawings" class="galleries"></div>
+  <h2 id="illustration">Illustration</h2>
+  <div id="illustrations" class="galleries"></div>
   <h2 id="sculpture">Sculptures</h2>
   <div class="galleries">
     <p id="soon">Coming Soon!</p>
   </div>
-  <h2 id="atw">Around The Web</h2>
+
   <div>
-    <p class="atwlinks"><a
-        href="https://www.dailytrib.com/2014/11/12/greens-soccer-field-gets-reds-blues-yellows-public-art-project/">DailyTrib.com</a>
-    </p>
-    <p class="atwlinks"><a
-        href="https://www.101highlandlakes.com/news/butterfly-mural-candlelight-ranch-marble-falls">101 Highland
-        Lakes</a></p>
+    <h2 id="atw">Around The Web</h2>
+    <div>
+      <p class="atwlinks"><a
+          href="https://www.dailytrib.com/2014/11/12/greens-soccer-field-gets-reds-blues-yellows-public-art-project/">DailyTrib.com</a>
+      </p>
+      <p class="atwlinks"><a
+          href="https://www.101highlandlakes.com/news/butterfly-mural-candlelight-ranch-marble-falls">101 Highland
+          Lakes</a></p>
+    </div>
   </div>
-  <h2 id="contact">Contact</h2>
-  <form name="contact" netlify>
-    <p>
-      <label><input type="text" name="name" placeholder="Name" required></label>
-    </p>
-    <p>
-      <label><input type="email" name="email" placeholder="Email" required></label>
-    </p>
-    <p>
-      <label><input type="text" name="subject" placeholder="Subject"></label>
-    </p>
-    <p>
-      <label><textarea rows="6" name="message" placeholder="Message..."></textarea></label>
-    </p>
-    <p id="submitp">
-      <input id="submit" type="submit" value="Send">
-    </p>
-  </form>
+
+  <div>
+    <h2 id="contact">Contact</h2>
+    <form name="contact" netlify>
+      <p>
+        <label><input type="text" name="name" placeholder="Name" required></label>
+      </p>
+      <p>
+        <label><input type="email" name="email" placeholder="Email" required></label>
+      </p>
+      <p>
+        <label><input type="text" name="subject" placeholder="Subject"></label>
+      </p>
+      <p>
+        <label><textarea rows="6" name="message" placeholder="Message..."></textarea></label>
+      </p>
+      <p id="submitp">
+        <input id="submit" type="submit" value="Send">
+      </p>
+    </form>
+  </div>
 
   <!--   <div id="contactme" class="container">
     <div class="container">
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div> -->
-  <footer>&copy; Lyndon Crowson 2018</footer>
+  <footer>&copy; Lyndon Crowson 2022</footer>
 </body>
 
 </html>
