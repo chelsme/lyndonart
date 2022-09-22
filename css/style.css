@@ -16,7 +16,7 @@ h1 {
 
 #modal {
   align-items: center;
-  background: rgba(14, 14, 14, .9);
+  background: black;
   display: none;
   height: 100%;
   justify-content: center;
@@ -81,6 +81,7 @@ a {
 }
 
 .galleryimg {
+  border: 4px solid black;
   height: 60vh;
   margin: 20px;
   object-fit: cover;
