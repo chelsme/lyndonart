@@ -266,6 +266,14 @@ footer {
   h2 {
     scroll-margin-top: 130px;
   }
+
+  .galleryimg {
+    margin: 10px auto;
+    max-height: unset;
+    width: 90vw;
+    height: auto;
+    object-fit: contain;
+  }
 }
 
 @media only screen and (max-width: 350px) {
