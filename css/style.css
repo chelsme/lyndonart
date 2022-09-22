@@ -14,6 +14,31 @@ h1 {
   z-index: 10;
 }
 
+#modal {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  background: rgba(14, 14, 14, .9);
+}
+
+.modal-img {
+  max-width: 80vw;
+  max-height: 80vh;
+  width: 55vw;
+  object-fit: contain;
+}
+
+#close {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -59,15 +84,6 @@ a {
   margin: 20px;
   object-fit: cover;
   width: 30%;
-}
-
-.galleryimg:hover {
-  height: unset;
-  max-height: 60vh;
-  max-width: 30vw;
-  object-fit: contain;
-  transform: scale(1.4);
-  width: unset;
 }
 
 #contactme {
@@ -190,15 +206,6 @@ footer {
     max-height: 90vh;
     max-width: 90vw;
     object-fit: contain;
-    width: 90vw;
-  }
-
-  .galleryimg:hover {
-    border: unset;
-    height: auto;
-    max-height: 90vh;
-    max-width: 90vw;
-    transform: scale(1);
     width: 90vw;
   }
 }
