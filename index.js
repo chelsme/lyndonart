@@ -60,6 +60,8 @@ const loadIllustrations = () => {
 }
 
 const clickOnImage = (image) => {
+  let body = document.querySelector("body");
+  body.style.overflow = "hidden";
   let modal = document.getElementById("modal");
   var img = document.createElement("img");
   img.src = image;
@@ -69,6 +71,8 @@ const clickOnImage = (image) => {
 }
 
 const closeModal = () => {
+  let body = document.querySelector("body");
+  body.style.overflow = "unset";
   let modal = document.getElementById("modal");
   modal.style.display = 'none';
   modal.removeChild(modal.lastChild)
