@@ -10,10 +10,10 @@ window.addEventListener("DOMContentLoaded", function () {
   closeButton.addEventListener("click", closeModal);
 });
 
-let paintings = ["abstract-1.jpg", "abstract-2.jpg", "basketball.jpg", "butterfly-large.jpg", "butterfly-mural.jpg", "chelsea.jpg", "creation-of-planets.jpg", "flying-woman.jpg", "hippies.jpg", "island-heads.jpg", "mermaid-large.jpg", "moon.jpg", "mythical-music.jpg", "narcissist-large.jpg", "numbers.jpg", "ocean.jpg", "red-circles.jpg", "roller-skater.jpg", "selfportrait-large.jpg", "sheilaportrait-large.jpg", "uncle-sam.jpg", "uninvited-large.jpg", "victor-colorado.jpg", "windy-woman.jpg", "wresting_with_demons.jpg"]
+let paintings = ["abstract-1.jpg", "abstract-2.jpg", "basketball.jpg", "butterfly-large.jpg", "butterfly-mural.jpg", "chelsea.jpg", "creation-of-planets.jpg", "flying-woman.jpg", "hippies.jpg", "island-heads.jpg", "mermaid-large.jpg", "moon.jpg", "mythical-music.jpg", "narcissist-large.jpg", "numbers.jpg", "red-circles.jpg", "robot-color.jpg", "roller-skater.jpg", "selfportrait-large.jpg", "sheilaportrait-large.jpg", "sight.jpg", "sirens.jpg", "uncle-sam.jpg", "uninvited-large.jpg", "victor-colorado.jpg", "windy-woman.jpg", "wresting_with_demons.jpg"]
 let cgi = ["airco.jpg", "circles.jpg", "clubcameron-large.jpg", "cybergenic.jpg", "drivers-large.jpg", "epv-peeps-large.jpg", "hotguitar-large.jpg", "hrolympiciconsfin-large.jpg", "mosquito.jpg", "my-peeps-large.jpg", "package-arctic.jpg", "package-desert.jpg", "storminnormans-large.jpg", "tune-wrangler.jpg", "valentine-large.jpg"]
 let drawings = ["animals.jpg", "another-card.jpg", "archetypes.jpg", "building.jpg", "horns.jpg", "playing-card.jpg", "robot.jpg", "santa.jpg"]
-let illustrations = ["a-boy-and-his-crab.jpg", "carousel.jpg", "cowboy.jpg", "highways-of-life.jpg", "hng.jpg", "houston-rodeo.jpg", "jeepstakes.jpg", "music.jpg", "unique-corner.jpg"]
+let illustrations = ["a-boy-and-his-crab.jpg", "carousel.jpg", "cowboy.jpg", "highways-of-life.jpg", "hng.jpg", "house.jpg", "houston-rodeo.jpg", "jeepstakes.jpg", "music.jpg", "unique-corner.jpg"]
 
 const loadPaintings = () => {
   var src = document.getElementById("painting");
